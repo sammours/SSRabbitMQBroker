@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{9260051E-07A4-4073-9E93-F24678313253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E6484B62-0DDF-487A-A85A-FD535348156B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRabbitMQBroker", "Src\SSRabbitMQBroker\SSRabbitMQBroker.csproj", "{924D070A-31B4-4886-B158-8D327E1938B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRabbitMQSender", "Src\SSRabbitMQSender\SSRabbitMQSender.csproj", "{391B925F-F47D-42AE-BED6-262FB3303BF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRabbitMQReceiver", "Src\SSRabbitMQReceiver\SSRabbitMQReceiver.csproj", "{CEC9D01B-8CC2-484E-82B0-1D895CBAD0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSRabbitMQBrokerTests", "Tests\SSRabbitMQBrokerTests\SSRabbitMQBrokerTests.csproj", "{99A5E099-5C89-4CF9-8C5B-A389DC7A8DC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924D070A-31B4-4886-B158-8D327E1938B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924D070A-31B4-4886-B158-8D327E1938B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924D070A-31B4-4886-B158-8D327E1938B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924D070A-31B4-4886-B158-8D327E1938B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{391B925F-F47D-42AE-BED6-262FB3303BF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{391B925F-F47D-42AE-BED6-262FB3303BF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{391B925F-F47D-42AE-BED6-262FB3303BF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{391B925F-F47D-42AE-BED6-262FB3303BF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC9D01B-8CC2-484E-82B0-1D895CBAD0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC9D01B-8CC2-484E-82B0-1D895CBAD0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC9D01B-8CC2-484E-82B0-1D895CBAD0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC9D01B-8CC2-484E-82B0-1D895CBAD0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A5E099-5C89-4CF9-8C5B-A389DC7A8DC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A5E099-5C89-4CF9-8C5B-A389DC7A8DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A5E099-5C89-4CF9-8C5B-A389DC7A8DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A5E099-5C89-4CF9-8C5B-A389DC7A8DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{924D070A-31B4-4886-B158-8D327E1938B0} = {9260051E-07A4-4073-9E93-F24678313253}
+		{391B925F-F47D-42AE-BED6-262FB3303BF0} = {9260051E-07A4-4073-9E93-F24678313253}
+		{CEC9D01B-8CC2-484E-82B0-1D895CBAD0B2} = {9260051E-07A4-4073-9E93-F24678313253}
+		{99A5E099-5C89-4CF9-8C5B-A389DC7A8DC8} = {E6484B62-0DDF-487A-A85A-FD535348156B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E293444-BCB5-4D41-B628-A94418E21E4A}
+	EndGlobalSection
+EndGlobal
