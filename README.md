@@ -97,7 +97,7 @@ publisher.Publish(new EchoMessage($"Another Hello, World!"));
 
 ### Receiving a Message
 
-Receiving the messages happend automatically when the subscriber is on.
+Receiving the messages happens automatically when the subscriber is on.
 
 
 ## Examples
